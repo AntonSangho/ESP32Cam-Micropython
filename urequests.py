@@ -2,8 +2,8 @@ import camera
 import network
 import time
 
-ssid_ = "showme_2.4G"
-wp2_pass = "sangho1028"
+ssid_ = config.ssid
+wp2_pass = config.wp2_pass
 
 sta_if = network.WLAN(network.STA_IF)
 sta_if.active(True)
