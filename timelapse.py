@@ -10,7 +10,7 @@ flash.value(0)
 
 uos.mount(machine.SDCard(), "/sd") # mount the SD card
 
-camera.init()
+camera.init(0, format=camera.JPEG)
 camera.quality(12)
 camera.framesize(9) # 1024x768
 
