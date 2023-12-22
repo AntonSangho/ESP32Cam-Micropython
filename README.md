@@ -12,7 +12,7 @@ ESP32cam을 raspberry pi Pico와 같이 사용할수 있을까?
     
 2. 초기화하기  
     1. esp32를 연결하고 **BOOT Button**을 누른 상태에서 아래 명령어를 실행한다.     
-    <img src="https://lastminuteengineers.com/wp-content/uploads/iot/ESP32-CAM-MB-Programmer-Hardware-Overview.jpg">  
+    <img src="https://lastminuteengineers.com/wp-content/uploads/iot/ESP32-CAM-MB-Programmer-Hardware-Overview.jpg"></img>
     ```bash
     esptool.py --chip esp32 --port /dev/ttyUSB0 erase_flash
     ```
